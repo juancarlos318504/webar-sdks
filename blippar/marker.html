@@ -87,7 +87,7 @@
     <!-- Step 2: Add webar-scene attribute to AFrame's <a-scene> tag -->
       <!-- Provide a valid Blippar license-key value in the key: property  -->
     <a-scene
-      webar-scene="key: ac6d9910-46fd-4762-a6e4-0a878e16bd41"
+      webar-scene="key: 0ce343ca-7ee1-44c6-b9f1-6766f4c35947"
       vr-mode-ui="enabled: false"
       device-orientation-permission-ui="enabled: false"
       loading-screen="enabled: false"
@@ -104,7 +104,7 @@
 
         <!-- Step 4: Add webar-marker attribute with a valid marker id value(obtained from Blippar hub), to AFrame's parent <a-entity> tag -->
           <!-- The models defined as a child element under this webar-marker id, will be displayed on the marker image during marker image tracking -->
-        <a-entity webar-marker="id: 1585de6a-7879-4a22-80ff-a8675becfaa9">
+        <a-entity webar-marker="id: 4a367f2a-e245-4425-b4dc-bc64d650cf67">
           <!-- Step 5: Add AR models under the webar-marker nodes -->
           <!-- Add webar-loadmonitor attribute to the entities to display loading progress screen before starting the surface tracking -->
           <!-- Refer API Reference documentation for more details -->
@@ -112,7 +112,7 @@
         </a-entity>
 
         <!-- Step 6: Add another webar-marker attribute with a valid marker id to another parent <a-entity> tag -->
-        <a-entity webar-marker="id: 851b97e5-6e41-4b9f-81fa-439ec7518d80">
+        <a-entity webar-marker="id: f10078e9-8ef8-4980-a2c8-2fd413a9ed38">
           <a-entity gltf-model="#testmodel2" id="testmodel_2" rotation="0 0 0" position="0 -0.5 0" scale="0.25 0.25 0.25" webar-loadmonitor="elType: glb"></a-entity>
         </a-entity>
 
